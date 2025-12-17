@@ -1,0 +1,245 @@
+## Pyramid of tables (over the fort)
+# Level 1 (Base 4×8) — Y = 106.77
+objects_override Table_1 -3.15 106.77 -2.32 0 0 0
+objects_override Table_1 -3.15 106.77 -1.22 0 0 0
+objects_override Table_1 -3.15 106.77 -0.12 0 0 0
+objects_override Table_1 -3.15 106.77 0.98 0 0 0
+objects_override Table_1 -3.15 106.77 2.08 0 0 0
+objects_override Table_1 -3.15 106.77 3.18 0 0 0
+objects_override Table_1 -3.15 106.77 4.28 0 0 0
+objects_override Table_1 -3.15 106.77 5.38 0 0 0
+
+objects_override Table_1 -1.05 106.77 -2.32 0 0 0
+objects_override Table_1 -1.05 106.77 -1.22 0 0 0
+objects_override Table_1 -1.05 106.77 -0.12 0 0 0
+objects_override Table_1 -1.05 106.77 0.98 0 0 0
+objects_override Table_1 -1.05 106.77 2.08 0 0 0
+objects_override Table_1 -1.05 106.77 3.18 0 0 0
+objects_override Table_1 -1.05 106.77 4.28 0 0 0
+objects_override Table_1 -1.05 106.77 5.38 0 0 0
+
+objects_override Table_1 1.05 106.77 -2.32 0 0 0
+objects_override Table_1 1.05 106.77 -1.22 0 0 0
+objects_override Table_1 1.05 106.77 -0.12 0 0 0
+objects_override Table_1 1.05 106.77 0.98 0 0 0
+objects_override Table_1 1.05 106.77 2.08 0 0 0
+objects_override Table_1 1.05 106.77 3.18 0 0 0
+objects_override Table_1 1.05 106.77 4.28 0 0 0
+objects_override Table_1 1.05 106.77 5.38 0 0 0
+
+objects_override Table_1 3.15 106.77 -2.32 0 0 0
+objects_override Table_1 3.15 106.77 -1.22 0 0 0
+objects_override Table_1 3.15 106.77 -0.12 0 0 0
+objects_override Table_1 3.15 106.77 0.98 0 0 0
+objects_override Table_1 3.15 106.77 2.08 0 0 0
+objects_override Table_1 3.15 106.77 3.18 0 0 0
+objects_override Table_1 3.15 106.77 4.28 0 0 0
+objects_override Table_1 3.15 106.77 5.38 0 0 0
+
+# Level 2 (3×6) — Y = 107.77
+objects_override Table_1 -2.10 107.77 -1.22 0 0 0
+objects_override Table_1 -2.10 107.77 -0.12 0 0 0
+objects_override Table_1 -2.10 107.77 0.98 0 0 0
+objects_override Table_1 -2.10 107.77 2.08 0 0 0
+objects_override Table_1 -2.10 107.77 3.18 0 0 0
+objects_override Table_1 -2.10 107.77 4.28 0 0 0
+
+objects_override Table_1 0.00 107.77 -1.22 0 0 0
+objects_override Table_1 0.00 107.77 -0.12 0 0 0
+objects_override Table_1 0.00 107.77 0.98 0 0 0
+objects_override Table_1 0.00 107.77 2.08 0 0 0
+objects_override Table_1 0.00 107.77 3.18 0 0 0
+objects_override Table_1 0.00 107.77 4.28 0 0 0
+
+objects_override Table_1 2.10 107.77 -1.22 0 0 0
+objects_override Table_1 2.10 107.77 -0.12 0 0 0
+objects_override Table_1 2.10 107.77 0.98 0 0 0
+objects_override Table_1 2.10 107.77 2.08 0 0 0
+objects_override Table_1 2.10 107.77 3.18 0 0 0
+objects_override Table_1 2.10 107.77 4.28 0 0 0
+
+# Level 3 (2×4) — Y = 108.77
+objects_override Table_1 -1.05 108.77 -0.12 0 0 0
+objects_override Table_1 -1.05 108.77 0.98 0 0 0
+objects_override Table_1 -1.05 108.77 2.08 0 0 0
+objects_override Table_1 -1.05 108.77 3.18 0 0 0
+
+objects_override Table_1 1.05 108.77 -0.12 0 0 0
+objects_override Table_1 1.05 108.77 0.98 0 0 0
+objects_override Table_1 1.05 108.77 2.08 0 0 0
+objects_override Table_1 1.05 108.77 3.18 0 0 0
+
+# Level 4 (Top 1×2) — Y = 109.77   ; square pad (2×2 units)
+objects_override Table_1 0.00 109.77 0.98 0 0 0
+objects_override Table_1 0.00 109.77 2.08 0 0 0
+
+## Level 5 (Canon)
+objects_override Carronade_RotatingCannonCarriage1 0 110.76 1.53 0 0 0
+objects_override CannonAmmoboxLarge -1.57 109.76 -0.08 0.00 101.47 0.00
+
+# Central Fort
+objects_override FortNapoleonTower1811 0 100 0 0 0 0
+objects_override PlatformShort 0.13 102.1 -3 0 0 0
+objects_override Windmill1_Base -0.14 98 1.53 0.00 0 0.00
+
+objects_override Sandbags 0.16 101.92 10.67 0.00 0 0.00
+objects_override firearmammobox 2.33 102.71 -3.14 0.00 0 0.00 Unarmed 255 255 255
+objects_override WeaponRack -2.40 102.71 -3.16 0.00 0 0.00 Frontlines_Stielhandgranate_1916 255
+
+objects_override Cannon6PDR 0.07 108.5 9.04 0.00 0 0.00
+
+
+objects_override Cannon6PDR 2.84 108 7.5 0 0 0
+objects_override Cannon6PDR 6.9 108 4.5 0 90 0
+objects_override Cannon6PDR 7.52 108.46 1.49 0.00 90 0.00
+objects_override Cannon6PDR 6.9 108 -1.74 0 90 0
+objects_override Cannon6PDR 3.12 108 -5.4 0 180 0
+objects_override Cannon6PDR -0.07 108.47 -6.02 0.00 180 0.00 
+objects_override Cannon6PDR -3.16 108 -5.4 0 180 0
+objects_override Cannon6PDR -6.9 108 -1.53 0 270 0
+objects_override Cannon6PDR -7.59 108.46 1.57 0.00 270 0.00
+objects_override Cannon6PDR -6.9 108 4.62 0 270 0
+objects_override Cannon6PDR -3.25 108 8.5 0 0 0
+ 
+objects_override CannonAmmoboxLarge -1.98 106.77 -2.89 0 0 0
+objects_override CannonAmmoboxLarge -4.87 106.77 -0.24 0 90 0
+objects_override CannonAmmoboxLarge -4.78 106.77 3.50 0 90 0
+objects_override CannonAmmoboxLarge -1.83 106.77 6.27 0 180 0
+objects_override CannonAmmoboxLarge 2.03 106.77 5.92 0 180 0
+objects_override CannonAmmoboxLarge 4.71 106.77 3.29 0 270 0
+objects_override CannonAmmoboxLarge 4.58 106.77 -0.54 0 270 0
+objects_override CannonAmmoboxLarge 1.95 106.77 -3.09 0 0 0
+
+objects_override FrontlinesStaticMachineGunCentral 6.27 107.91 7.66 0.00 42.38 0.00
+objects_override FrontlinesMachineGunAmmobox 5.90 107.5 5.84 0.00 266.58 0.00
+
+objects_override FrontlinesStaticMachineGunAllied 6.13 107.91 -4.71 0.00 138.47 0.00
+objects_override FrontlinesMachineGunAmmobox 4.16 107.5 -4.20 0.00 28.98 0.00
+
+objects_override FrontlinesStaticMachineGunAllied -6.33 107.87 -4.69 0.00 224.90 0.00
+objects_override FrontlinesMachineGunAmmobox -5.80 107.5 -2.72 0.00 89.49 0.00
+
+objects_override FrontlinesStaticMachineGunAllied -6.24 107.86 7.92 0.00 314.59 0.00
+objects_override FrontlinesMachineGunAmmobox -4.30 107.5 7.56 0.00 179.40 0.00
+
+# NE Platform
+objects_override Windmill1_Base 20.38 93 22.87 0 0 0
+objects_override Bridge 9.73 97.71 11.65 30 45 0
+
+objects_override CiderPress_Group 20.67 97 22.83 0 0 0
+objects_override CannonFieldGun9PDR 20.67 100.5 22.83 0 45 0
+objects_override CannonAmmoboxLarge 23.44 100.5 20.71 0 0 0
+objects_override LadderShort 15.2 96.92 17.0 45 45 0
+
+# North Platform
+objects_override Windmill1_Base 0.00 88.00 44.89 0 0 0
+objects_override CiderPress_Group 0.29 92.00 44.85 0 0 0
+objects_override CannonFieldGun9PDR 0.29 95.50 44.85 0 0 0
+objects_override CannonAmmoboxLarge -2.48 95.50 46.97 0 0 0
+objects_override LadderShort -4.84 91.92 39.45 45 43.25 0.00
+
+objects_override Bridge 10.24 92.8 33.48 25 318.45 0.00
+objects_override Bridge -10.37 92.8 33.89 25 42.20 0.00
+
+
+# South Platform
+objects_override Windmill1_Base 0.00 88.00 -41.83 0 180 0
+objects_override CiderPress_Group 0.29 92.00 -41.79 0 180 0
+objects_override CannonFieldGun9PDR 0.29 95.50 -41.79 0 180 0
+objects_override CannonAmmoboxLarge -2.48 95.50 -39.67 0 0 0
+objects_override LadderShort -4.84 91.92 -47.19 45 44 0.00
+
+objects_override Bridge 10.24 92.8 -30.42 25 221.55 0.00
+objects_override Bridge -10.37 92.8 -30.83 25 137.80 0.00
+
+# East Platform
+objects_override Windmill1_Base 41.83 88.00 0.00 0 90 0
+objects_override CiderPress_Group 42.12 92.00 -0.04 0 90 0
+objects_override CannonFieldGun9PDR 42.12 95.50 -0.04 0 90 0
+objects_override CannonAmmoboxLarge 39.35 95.50 -2.16 0 0 0
+objects_override LadderShort 36.99 91.92 4.35 45 137 0.00
+
+objects_override Bridge 30 92.8 11 25 139 0.00
+objects_override Bridge 30.83 92.8 -10.20 25 46.85 0.00
+
+# West Platform
+objects_override Windmill1_Base -41.83 88.00 0.00 0 270 0
+objects_override CiderPress_Group -42.12 92.00 -0.04 0 270 0
+objects_override CannonFieldGun9PDR -42.12 95.50 -0.04 0 270 0
+objects_override CannonAmmoboxLarge -44.89 95.50 -2.16 0 0 0
+objects_override LadderShort -47.25 91.92 4.35 45 133.25 0.00
+
+objects_override Bridge -31 92.8 11.2 25 227.84 0.00
+objects_override Bridge -30.83 92.8 -10.20 25 316 0.00
+
+
+# NW Platform
+objects_override Windmill1_Base -20.38 93 22.87 0 0 0
+objects_override Bridge -9.73 97.71 11.65 30 315 0
+
+objects_override CiderPress_Group -20.67 97 22.83 0 0 0
+objects_override CannonFieldGun9PDR -20.67 100.5 22.83 0 315 0
+objects_override CannonAmmoboxLarge -23.44 100.5 20.71 0 0 0
+objects_override LadderShort -15.2 96.92 17.0 45 315 0
+
+# SE Platform
+objects_override Windmill1_Base 20.88 93 -20.37 0 0 0
+objects_override Bridge 10.23 97.71 -9.15 30 135 0
+
+objects_override CiderPress_Group 21.17 97 -20.33 0 0 0
+objects_override CannonFieldGun9PDR 21.17 100.5 -20.33 0 135 0
+objects_override CannonAmmoboxLarge 23.94 100.5 -18.21 0 0 0
+objects_override LadderShort 15.7 96.92 -14.5 45 135 0
+
+# SW Platform
+objects_override Windmill1_Base -20.88 93 -20.37 0 0 0
+objects_override Bridge -10.23 97.71 -9.15 30 225 0
+
+objects_override CiderPress_Group -21.17 97 -20.33 0 0 0
+objects_override CannonFieldGun9PDR -21.17 100.5 -20.33 0 225 0
+objects_override CannonAmmoboxLarge -23.94 100.5 -18.21 0 0 0
+objects_override LadderShort -15.7 96.92 -14.5 45 225 0
+
+
+
+
+
+
+
+
+
+
+
+
+## Far West Platform
+objects_override Windmill1_Base -200.42 99 0 0 170 0
+objects_override CoastalCannon_36Pdr_French -192.18 102.92 -0.03 0.00 90 0.00
+objects_override CoastalCannon_36Pdr_French -196.31 102.92 -7.39 0.00 145 0.00
+objects_override CoastalCannon_36Pdr_French -196.31 102.92 7.33 0.00 35 0.00
+
+objects_override CannonAmmoboxLarge -200.01 102.92 6.24 0.00 58.83 0.00
+objects_override CannonAmmoboxLarge -194.73 102.92 2.11 0.00 138.50 0.00
+objects_override CannonAmmoboxLarge -195.96 102.92 -3.97 0.00 194.92 0.00
+
+objects_override HuntingHut -200 102.92 0 0.00 90 0.00
+objects_override FrontlinesStaticMachineGunAllied -199.09 106 -0.09 0.00 90 0.00
+objects_override Gabion -199.09 105 -0.09 0.00 90 0.00
+objects_override FrontlinesMachineGunAmmobox -200.78 105.3 -1.68 0.00 0 0.00
+
+
+
+## Far East Platform
+objects_override Windmill1_Base 200.42 99 0 0 -10 0
+
+objects_override CoastalCannon_36Pdr_French 192.18 102.92 -0.03 0.00 -90 0.00
+objects_override CoastalCannon_36Pdr_French 196.31 102.92 -7.39 0.00 -145 0.00
+objects_override CoastalCannon_36Pdr_French 196.31 102.92 7.33 0.00 -35 0.00
+
+objects_override CannonAmmoboxLarge 200.01 102.92 6.24 0.00 -58.83 0.00
+objects_override CannonAmmoboxLarge 194.73 102.92 2.11 0.00 -138.50 0.00
+objects_override CannonAmmoboxLarge 195.96 102.92 -3.97 0.00 -194.92 0.00
+
+objects_override HuntingHut 200 102.92 0 0.00 -90 0.00
+objects_override FrontlinesStaticMachineGunAllied 199.09 106 -0.09 0.00 -90 0.00
+objects_override Gabion 199.09 105 -0.09 0.00 -90 0.00
+objects_override FrontlinesMachineGunAmmobox 200.43 105.3 1.51 0.00 181.16 0.00

@@ -1,0 +1,521 @@
+# SKY ARENA – ORGANIZED LANES (150 ITEMS)
+
+# South Platform
+objects_override Church_Brittany1_Platform 0 1000 0 0 0 0
+objects_override White_Oak_Desktop2 -12.14 1000.59 -14.50 0.00 6.73 0.00
+objects_override White_Oak_Desktop2_LightYellow 0 1000.59 -14.50 0.00 359.38 0.00
+objects_override White_Oak_Desktop3 12.06 1000.59 -14.50 0.00 353.98 0.00
+# objects_override HedgeTall 11.95 1000.59 -7.42 0.00 0 0.00
+objects_override HuntingHut 0 1001 -2.07 0.00 0 0.00
+objects_override FlagFrench -1.4 1005.6 -0.8 0.00 90 0.00
+# objects_override FrontlinesStaticMachineGunAllied 0.20 1003.9 -0.85 0.00 0 0.00
+# objects_override Gabion 0.20 1003.12 -0.85 0.00 0 0.00
+objects_override Chair4 10.5 1000.59 -7.63 0.00 270 0.00
+objects_override Table_1 8.65 1000.2 -7.63 0.00 0 0.00
+objects_override Chair3 9.39 1000.59 -8.57 0.00 0 0.00
+objects_override Chair3 8.23 1000.59 -8.42 0.00 0 0.00
+objects_override Bench 7.19 1000.59 -7.63 0.00 90 0.00
+objects_override Chair3 9.39 1000.59 -6.84 0.00 180 0.00
+objects_override Chair3 8.23 1000.59 -6.84 0.00 180 0.00
+
+# North Platform
+objects_override Church_Brittany1_Platform 0 1000 50 0 180 0
+objects_override White_Oak_Desktop2 12.14 1000.59 64.50 0.00 186.73 0.00
+objects_override White_Oak_Desktop2_LightYellow 0 1000.59 64.50 0.00 179.38 0.00
+objects_override White_Oak_Desktop3 -12.06 1000.59 64.50 0.00 173.98 0.00
+# objects_override HedgeTall -11.95 1000.59 57.42 0.00 180 0.00
+objects_override HuntingHut 0 1001 52.07 0.00 180 0.00
+objects_override FlagBritish 1.4 1005.6 50.8 0.00 270 0.00
+# objects_override FrontlinesStaticMachineGunAllied -0.20 1003.9 50.85 0.00 180 0.00
+# objects_override Gabion -0.20 1003.12 50.85 0.00 180 0.00
+objects_override Chair4 -10.5 1000.59 57.63 0.00 90 0.00
+objects_override Table_1 -8.65 1000.2 57.63 0.00 180 0.00
+objects_override Chair3 -9.39 1000.59 58.57 0.00 180 0.00
+objects_override Chair3 -8.23 1000.59 58.42 0.00 180 0.00
+objects_override Bench -7.19 1000.59 57.63 0.00 270 0.00
+objects_override Chair3 -9.39 1000.59 56.84 0.00 0 0.00
+objects_override Chair3 -8.23 1000.59 56.84 0.00 0 0.00
+
+# === Center ramps and choke ===
+objects_override LadderLong 0 1000 4 72 0 0
+objects_override LadderLong 0 1000 46 72 180 0
+objects_override Bridge_Destroyed 0 1000 25 0 0 0
+
+
+# === CENTRAL LANE ===
+objects_override PlatformShort 0 1000 8 0 40 0
+objects_override LadderLong 0 1000 10 74 0 0
+objects_override CrateLong_Red 0 1000 12 0 200 0
+objects_override Furniture1 0 1000 14 90 90 0
+objects_override PlatformShort 0 1000 16 0 120 0
+objects_override LadderShort 0 1000 18 72 0 0
+objects_override WalledCity_Gate 0 1000 20 90 65 0
+objects_override PlatformShort 0 1000 22 0 310 0
+objects_override Grandfather_Clock 0 1000 24 90 250 0
+objects_override PlatformShort 0 1000 26 0 150 0
+objects_override LadderShort 0 1000 28 72 180 0
+objects_override CrateLong_Red 0 1000 30 0 45 0
+objects_override Table_1 0 1000 32 0 270 0
+objects_override WoodStack_Group 0 1000 34 0 100 0
+objects_override PlatformShort 0 1000 36 0 190 0
+objects_override LadderLong 0 1000 38 74 180 0
+objects_override Furniture1 0 1000 40 90 300 0
+objects_override PlatformShort 0 1000 42 0 60 0
+objects_override LadderShort 0 1000 44 72 180 0
+objects_override Fire_Wall_W_Smoke 5.98 1000.08 27.06 0 0 0
+objects_override Fire_Wall_W_Smoke -2.75 999 25.66 0.00 159.68 0.00
+objects_override Fire_Wall_W_Smoke -0.03 1001 30.33 0.00 179.45 0.00
+objects_override Fire_Wall_W_Smoke -0.02 1000.5 35.95 0.00 119.45 0.00
+objects_override Fire_Wall_W_Smoke -1.13 1002.13 37.09 0.00 181.30 0.00
+objects_override Fire_Wall_W_Smoke 0.05 1000.81 12.05 0.00 190.28 0.00
+
+
+
+# === LEFT LANE (x ≈ -10 to -16) ===
+objects_override LadderLong -10 1000 6 74 0 0
+objects_override PlatformShort -12 1000 8 0 140 0
+objects_override CrateLong_Red -14 1000 10 0 310 0
+objects_override Furniture1 -16 1000 12 90 200 0
+objects_override LadderShort -12 1000 14 72 0 0
+objects_override PlatformShort -14 1000 16 0 60 0
+objects_override WoodStack_Group -16 1000 18 0 270 0
+objects_override LadderLong -12 1000 20 74 0 0
+objects_override PlatformShort -14 1000 22 0 90 0
+objects_override Grandfather_Clock -16 1000 24 90 180 0
+objects_override LadderShort -12 1000 26 72 0 0
+objects_override PlatformShort -14 1000 28 0 300 0
+objects_override Table_1 -16 1000 30 0 120 0
+objects_override LadderLong -12 1000 32 74 0 0
+objects_override PlatformShort -14 1000 34 0 25 0
+objects_override Furniture1 -16 1000 36 90 85 0
+objects_override LadderShort -12 1000 38 72 0 0
+objects_override PlatformShort -14 1000 40 0 200 0
+objects_override CrateLong_Red -16 1000 42 0 340 0
+objects_override LadderLong -12 1000 44 74 0 0
+objects_override PlatformShort -14 1000 46 0 170 0
+objects_override Fire_Wall_W_Smoke -13.24 1000.43 28.09 0.00 137.66 0.00
+objects_override Fire_Wall_W_Smoke -13.97 1000.26 36.68 0.00 8.54 0.00
+# objects_override FrontlinesMachineGunAmmobox -13.56 1000.7 22.83 0.00 105.30 0.00
+
+# === RIGHT LANE (x ≈ +10 to +16) ===
+objects_override LadderLong 12 1000 7 74 180 0
+objects_override PlatformShort 12 1000 8 0 210 0
+objects_override CrateLong_Red 14 1000 10 0 70 0
+objects_override Furniture1 16 1000 12 90 290 0
+objects_override LadderShort 12 1000 14 72 180 0
+objects_override PlatformShort 14 1000 16 0 330 0
+objects_override WoodStack_Group 16 1000 18 0 120 0
+objects_override LadderLong 12 1000 20 74 180 0
+objects_override PlatformShort 14 1000 22 0 50 0
+objects_override Grandfather_Clock 16 1000 24 90 200 0
+objects_override LadderShort 12 1000 26 72 180 0
+objects_override PlatformShort 14 1000 28 0 110 0
+objects_override Table_1 16 1000 30 0 250 0
+objects_override LadderLong 12 1000 32 74 180 0
+objects_override PlatformShort 14 1000 34 0 300 0
+objects_override Furniture1 16 1000 36 90 45 0
+objects_override LadderShort 12 1000 38 72 180 0
+objects_override PlatformShort 14 1000 40 0 180 0
+objects_override CrateLong_Red 16 1000 42 0 355 0
+objects_override LadderLong 12 1000 44 74 180 0
+objects_override PlatformShort 14 1000 46 0 270 0
+objects_override Fire_Wall_W_Smoke 14.03 1000.81 10.01 0.00 280.54 0.00
+objects_override Fire_Wall_W_Smoke 14.16 1000.43 22.80 0.00 248.23 0.00
+# objects_override FrontlinesMachineGunAmmobox 13.19 1000.7 40.17 0.00 269.58 0.00
+
+# === CROSS LINKS (between lanes) ===
+objects_override LadderLong -6 1000 15 74 90 0
+objects_override LadderLong -6 1000 25 74 90 0
+objects_override LadderLong -6 1000 35 74 90 0
+objects_override LadderLong 6 1000 17 74 -90 0
+objects_override LadderLong 6 1000 27 74 -90 0
+objects_override LadderLong 6 1000 37 74 -90 0
+
+# === PLATFORM PROPS (spawn decoration + ramps) ===
+# Left platform
+objects_override CrateLong_Red -5 1000 2 0 60 0
+objects_override Table_1 5 1000 2 0 300 0
+objects_override Furniture1 -7 1000 1 90 120 0
+objects_override Grandfather_Clock 7 1000 1 90 240 0
+objects_override LadderShort -2 1000 1 72 0 0
+objects_override LadderShort 2 1000 1 72 0 0
+objects_override PlatformShort 9 1000 2 0 15 0
+objects_override WalledCity_Gate -9 1000 2 90 200 0
+
+# Right platform
+objects_override CrateLong_Red -5 1000 48 0 140 0
+objects_override Table_1 5 1000 48 0 280 0
+objects_override Furniture1 -7 1000 49 90 310 0
+objects_override Grandfather_Clock 7 1000 49 90 70 0
+objects_override LadderShort -2 1000 49 72 180 0
+objects_override LadderShort 2 1000 49 72 180 0
+objects_override PlatformShort 9 1000 48 0 230 0
+objects_override WalledCity_Gate -9 1000 48 90 25 0
+
+# === OUTSIDE FLAVOR (parkour bait) ===
+objects_override PlatformShort 22 1000 55 0 75 0
+objects_override PlatformShort -22 1000 55 0 200 0
+objects_override Furniture1 24 1000 57 90 310 0
+objects_override Grandfather_Clock -24 1000 57 90 135 0
+objects_override LadderLong 26 1000 59 74 0 0
+objects_override LadderShort -26 1000 59 72 180 0
+objects_override CrateLong_Red 28 1000 61 0 15 0
+objects_override Table_1 -28 1000 61 0 275 0
+objects_override WoodStack_Group 30 1000 63 0 45 0
+objects_override WoodStack_Group -30 1000 63 0 185 0
+
+
+
+
+### LOWER LEVEL
+
+# LOWER LANE A (x = -9)
+objects_override LadderLong -9 996 9 74 0 0
+objects_override Outhouse -9 997 11 0 0 0
+objects_override FencingWallVines3 -9 996 13 0 270 0
+objects_override Furnace1 -9 996 15 0 180 0
+objects_override LadderShort -9 996 17 72 0 0
+objects_override Spain_Barn -9 996 19 0 200 0
+objects_override Prop_Well1 -9 996 21 0 45 0
+objects_override Piano1 -9 996 23 0 120 0
+objects_override LadderShort -9 996 27 72 180 0
+objects_override Firewoodstack2_Group -9 996 29 0 300 0
+objects_override LadderLong -9 996 35 74 180 0
+objects_override Bridge_Destroyed -9 996 37 0 10 0
+objects_override Church_Brittany1_Entrance -9 996 43 0 0 0
+objects_override LadderShort -9 996 45 72 0 0
+
+# LOWER LANE B (x = -3)
+objects_override LadderLong -3 996 9 74 0 0
+objects_override Outhouse -3 997 11 0 0 0
+objects_override Fence1_Straight -3 996 13 0 270 0
+objects_override PlatformLong -3 996 15 0 25 0
+objects_override LadderShort -3 996 17 72 0 0
+objects_override Prop_Well1 -3 996 21 0 0 0
+objects_override Piano1 -3 996 23 0 270 0
+objects_override LadderShort -3 996 27 72 180 0
+objects_override Firewoodstack2_Group -3 996 29 0 100 0
+objects_override LadderLong -3 996 35 74 180 0
+objects_override Church_Doors -3 996 37 90 0 0
+objects_override Bridge_Destroyed -3 996 43 0 180 0
+objects_override LadderShort -3 996 45 72 0 0
+
+# LOWER LANE C (x = +3)
+objects_override LadderLong 3 996 9 74 180 0
+objects_override Pidgeoncoop 3 996 11 0 0 0
+objects_override FencingWallVines3 3 996 13 0 90 0
+objects_override Furnace1 3 996 15 0 180 0
+objects_override LadderShort 3 996 17 72 180 0
+objects_override Spain_Barn 3 996 19 0 0 0
+objects_override Prop_Well1 3 996 21 0 270 0
+objects_override Piano1 3 996 23 0 180 0
+objects_override LadderShort 3 996 27 72 180 0
+objects_override Firewoodstack2_Group 3 996 29 0 200 0
+objects_override LadderLong 3 996 35 74 180 0
+objects_override Bridge_Destroyed 3 996 37 0 270 0
+objects_override Church_Brittany1_Entrance 3 996 43 0 0 0
+objects_override LadderShort 3 996 45 72 180 0
+
+# LOWER LANE D (x = +9)
+objects_override LadderLong 9 996 9 90 180 0
+objects_override Outhouse 9 998 11 0 0 0
+objects_override Fence1_Straight 9 996 13 0 90 0
+objects_override PlatformLong 9 996 15 0 270 0
+objects_override LadderShort 9 997.1 17 60 180 0
+objects_override Prop_Well1 9 996 21 0 0 0
+objects_override Piano1 9 996 23 0 270 0
+objects_override LadderShort 9 996 27 72 180 0
+objects_override Firewoodstack2_Group 9 996 29 0 100 0
+objects_override LadderLong 9 996 35 74 180 0
+objects_override Church_Doors 9 996 37 90 0 0
+objects_override Bridge_Destroyed 9 996 43 0 90 0
+objects_override LadderShort 9 996 45 72 180 0
+
+
+
+### REPLICA
+
+objects_override Church_Brittany1_Platform 25 1000 0 0 0 0
+objects_override White_Oak_Desktop2 11.86 1000.59 -14.50 0.00 6.73 0.00
+objects_override White_Oak_Desktop2_LightYellow 24 1000.59 -14.50 0.00 359.38 0.00
+objects_override White_Oak_Desktop3 36.06 1000.59 -14.50 0.00 353.98 0.00
+# objects_override HedgeTall 35.95 1000.59 -7.42 0.00 0 0.00
+objects_override HuntingHut 24 1001 -2.07 0.00 0 0.00
+objects_override FlagFrench 22.6 1005.6 -0.8 0.00 90 0.00
+objects_override Chair4 34.5 1000.59 -7.63 0.00 270 0.00
+objects_override Table_1 32.65 1000.2 -7.63 0.00 0 0.00
+objects_override Chair3 33.39 1000.59 -8.57 0.00 0 0.00
+objects_override Chair3 32.23 1000.59 -8.42 0.00 0 0.00
+objects_override Bench 31.19 1000.59 -7.63 0.00 90 0.00
+objects_override Chair3 33.39 1000.59 -6.84 0.00 180 0.00
+objects_override Chair3 32.23 1000.59 -6.84 0.00 180 0.00
+
+objects_override Church_Brittany1_Platform 25 1000 50 0 180 0
+objects_override White_Oak_Desktop2 36.14 1000.59 64.50 0.00 186.73 0.00
+objects_override White_Oak_Desktop2_LightYellow 24 1000.59 64.50 0.00 179.38 0.00
+objects_override White_Oak_Desktop3 11.94 1000.59 64.50 0.00 173.98 0.00
+# objects_override HedgeTall 12.05 1000.59 57.42 0.00 180 0.00
+objects_override HuntingHut 24 1001 52.07 0.00 180 0.00
+objects_override FlagBritish 25.4 1005.6 50.8 0.00 270 0.00
+objects_override Chair4 13.5 1000.59 57.63 0.00 90 0.00
+objects_override Table_1 15.35 1000.2 57.63 0.00 180 0.00
+objects_override Chair3 14.61 1000.59 58.57 0.00 180 0.00
+objects_override Chair3 15.77 1000.59 58.42 0.00 180 0.00
+objects_override Bench 16.81 1000.59 57.63 0.00 270 0.00
+objects_override Chair3 14.61 1000.59 56.84 0.00 0 0.00
+objects_override Chair3 15.77 1000.59 56.84 0.00 0 0.00
+
+objects_override LadderLong 24 1000 4 72 0 0
+objects_override LadderLong 24 1000 46 72 180 0
+objects_override Bridge_Destroyed 24 1000 25 0 0 0
+
+objects_override PlatformShort 24 1000 8 0 40 0
+objects_override LadderLong 24 1000 10 74 0 0
+objects_override CrateLong_Red 24 1000 12 0 200 0
+objects_override Furniture1 24 1000 14 90 90 0
+objects_override PlatformShort 24 1000 16 0 120 0
+objects_override LadderShort 24 1000 18 72 0 0
+objects_override WalledCity_Gate 24 1000 20 90 65 0
+objects_override PlatformShort 24 1000 22 0 310 0
+objects_override Grandfather_Clock 24 1000 24 90 250 0
+objects_override PlatformShort 24 1000 26 0 150 0
+objects_override LadderShort 24 1000 28 72 180 0
+objects_override CrateLong_Red 24 1000 30 0 45 0
+objects_override Table_1 24 1000 32 0 270 0
+objects_override WoodStack_Group 24 1000 34 0 100 0
+objects_override PlatformShort 24 1000 36 0 190 0
+objects_override LadderLong 24 1000 38 74 180 0
+objects_override Furniture1 24 1000 40 90 300 0
+objects_override PlatformShort 24 1000 42 0 60 0
+objects_override LadderShort 24 1000 44 72 180 0
+objects_override Fire_Wall_W_Smoke 29.98 1000.08 27.06 0 0 0
+objects_override Fire_Wall_W_Smoke 21.25 999 25.66 0.00 159.68 0.00
+objects_override Fire_Wall_W_Smoke 23.97 1001 30.33 0.00 179.45 0.00
+objects_override Fire_Wall_W_Smoke 23.98 1000.5 35.95 0.00 119.45 0.00
+objects_override Fire_Wall_W_Smoke 22.87 1002.13 37.09 0.00 181.30 0.00
+objects_override Fire_Wall_W_Smoke 24.05 1000.81 12.05 0.00 190.28 0.00
+
+objects_override LadderLong 36 1000 7 74 180 0
+objects_override PlatformShort 36 1000 8 0 210 0
+objects_override CrateLong_Red 38 1000 10 0 70 0
+objects_override Furniture1 40 1000 12 90 290 0
+objects_override LadderShort 36 1000 14 72 180 0
+objects_override PlatformShort 38 1000 16 0 330 0
+objects_override WoodStack_Group 40 1000 18 0 120 0
+objects_override LadderLong 36 1000 20 74 180 0
+objects_override PlatformShort 38 1000 22 0 50 0
+objects_override Grandfather_Clock 40 1000 24 90 200 0
+objects_override LadderShort 36 1000 26 72 180 0
+objects_override PlatformShort 38 1000 28 0 110 0
+objects_override Table_1 40 1000 30 0 250 0
+objects_override LadderLong 36 1000 32 74 180 0
+objects_override PlatformShort 38 1000 34 0 300 0
+objects_override Furniture1 40 1000 36 90 45 0
+objects_override LadderShort 36 1000 38 72 180 0
+objects_override PlatformShort 38 1000 40 0 180 0
+objects_override CrateLong_Red 40 1000 42 0 355 0
+objects_override LadderLong 36 1000 44 74 180 0
+objects_override PlatformShort 38 1000 46 0 270 0
+objects_override Fire_Wall_W_Smoke 38.03 1000.81 10.01 0.00 280.54 0.00
+objects_override Fire_Wall_W_Smoke 38.16 1000.43 22.80 0.00 248.23 0.00
+
+objects_override LadderLong 18 1000 15 74 90 0
+objects_override LadderLong 18 1000 25 74 90 0
+objects_override LadderLong 18 1000 35 74 90 0
+objects_override LadderLong 30 1000 17 74 -90 0
+objects_override LadderLong 30 1000 27 74 -90 0
+objects_override LadderLong 30 1000 37 74 -90 0
+
+objects_override CrateLong_Red 19 1000 2 0 60 0
+objects_override Table_1 29 1000 2 0 300 0
+objects_override Furniture1 17 1000 1 90 120 0
+objects_override Grandfather_Clock 31 1000 1 90 240 0
+objects_override LadderShort 22 1000 1 72 0 0
+objects_override LadderShort 26 1000 1 72 0 0
+objects_override PlatformShort 33 1000 2 0 15 0
+objects_override WalledCity_Gate 15 1000 2 90 200 0
+
+objects_override CrateLong_Red 19 1000 48 0 140 0
+objects_override Table_1 29 1000 48 0 280 0
+objects_override Furniture1 17 1000 49 90 310 0
+objects_override Grandfather_Clock 31 1000 49 90 70 0
+objects_override LadderShort 22 1000 49 72 180 0
+objects_override LadderShort 26 1000 49 72 180 0
+objects_override PlatformShort 33 1000 48 0 230 0
+objects_override WalledCity_Gate 15 1000 48 90 25 0
+
+objects_override PlatformShort 46 1000 55 0 75 0
+objects_override PlatformShort 2 1000 55 0 200 0
+objects_override Furniture1 48 1000 57 90 310 0
+objects_override Grandfather_Clock 0 1000 57 90 135 0
+objects_override LadderLong 50 1000 59 74 0 0
+objects_override LadderShort -2 1000 59 72 180 0
+objects_override CrateLong_Red 52 1000 61 0 15 0
+objects_override Table_1 -4 1000 61 0 275 0
+objects_override WoodStack_Group 54 1000 63 0 45 0
+objects_override WoodStack_Group -6 1000 63 0 185 0
+
+objects_override LadderLong 15 996 9 74 0 0
+objects_override Outhouse 15 997 11 0 0 0
+objects_override FencingWallVines3 15 996 13 0 270 0
+objects_override Furnace1 15 996 15 0 180 0
+objects_override LadderShort 15 996 17 72 0 0
+objects_override Spain_Barn 15 996 19 0 200 0
+objects_override Prop_Well1 15 996 21 0 45 0
+objects_override Piano1 15 996 23 0 120 0
+objects_override LadderShort 15 996 27 72 180 0
+objects_override Firewoodstack2_Group 15 996 29 0 300 0
+objects_override LadderLong 15 996 35 74 180 0
+objects_override Bridge_Destroyed 15 996 37 0 10 0
+objects_override Church_Brittany1_Entrance 15 996 43 0 0 0
+objects_override LadderShort 15 996 45 72 0 0
+
+objects_override LadderLong 21 996 9 74 0 0
+objects_override Outhouse 21 997 11 0 0 0
+objects_override Fence1_Straight 21 996 13 0 270 0
+objects_override PlatformLong 21 996 15 0 25 0
+objects_override LadderShort 21 996 17 72 0 0
+objects_override Prop_Well1 21 996 21 0 0 0
+objects_override Piano1 21 996 23 0 270 0
+objects_override LadderShort 21 996 27 72 180 0
+objects_override Firewoodstack2_Group 21 996 29 0 100 0
+objects_override LadderLong 21 996 35 74 180 0
+objects_override Church_Doors 21 996 37 90 0 0
+objects_override Bridge_Destroyed 21 996 43 0 180 0
+objects_override LadderShort 21 996 45 72 0 0
+
+objects_override LadderLong 27 996 9 74 180 0
+objects_override Pidgeoncoop 27 996 11 0 0 0
+objects_override FencingWallVines3 27 996 13 0 90 0
+objects_override Furnace1 27 996 15 0 180 0
+objects_override LadderShort 27 996 17 72 180 0
+objects_override Spain_Barn 27 996 19 0 0 0
+objects_override Prop_Well1 27 996 21 0 270 0
+objects_override Piano1 27 996 23 0 180 0
+objects_override LadderShort 27 996 27 72 180 0
+objects_override Firewoodstack2_Group 27 996 29 0 200 0
+objects_override LadderLong 27 996 35 74 180 0
+objects_override Bridge_Destroyed 27 996 37 0 270 0
+objects_override Church_Brittany1_Entrance 27 996 43 0 0 0
+objects_override LadderShort 27 996 45 72 180 0
+
+objects_override LadderLong 33 996 9 90 180 0
+objects_override Outhouse 33 998 11 0 0 0
+objects_override Fence1_Straight 33.5 996 13 90 90 0
+objects_override PlatformLong 33 996 15 0 270 0
+objects_override LadderShort 33 997.1 17 40 180 0
+objects_override Prop_Well1 33 996 21 0 0 0
+objects_override Piano1 33 996 23 0 270 0
+objects_override LadderShort 33 996 27 72 180 0
+objects_override Firewoodstack2_Group 33 996 29 0 100 0
+objects_override LadderLong 33 996 35 74 180 0
+objects_override Church_Doors 33 996 37 90 0 0
+objects_override Bridge_Destroyed 33 996 43 0 90 0
+objects_override LadderShort 33 996 45 72 180 0
+
+
+
+# DOME OF FLOATING HOUSES (center 11.93 1003.08 21.52) — hemisphere
+
+objects_override House_Dutch1 51.93 1029.08 21.52 90.00 180.00 0.00
+objects_override House_Dutch3_3 48.89 1029.08 36.83 90.00 -157.50 0.00
+objects_override Spain_House2 40.21 1029.08 49.80 90.00 -135.00 0.00
+objects_override House1_Brittany 27.24 1029.08 58.48 90.00 -112.50 0.00
+objects_override StAugustine_House3 11.93 1029.08 61.52 90.00 -90.00 0.00
+objects_override Windmill1 -3.38 1029.08 58.48 90.00 -67.50 0.00
+objects_override House1v2_Brittany -16.35 1029.08 49.80 90.00 -45.00 0.00
+objects_override House4_Brittany -25.03 1029.08 36.83 90.00 -22.50 0.00
+objects_override House2v2_Brittany -28.07 1029.08 21.52 90.00 -0.00 0.00
+objects_override House3_Brittany -25.03 1029.08 6.21 90.00 22.50 0.00
+objects_override House1_Brittany -16.35 1029.08 -6.76 90.00 45.00 0.00
+objects_override House2_Brittany -3.38 1029.08 -15.44 90.00 67.50 0.00
+objects_override StAugustine_House3 11.93 1029.08 -18.48 90.00 90.00 0.00
+objects_override House2_Brittany 27.24 1029.08 -15.44 90.00 112.50 0.00
+objects_override Windmill2 40.21 1029.08 -6.76 90.00 135.00 0.00
+objects_override Windmill1 48.89 1029.08 6.21 90.00 157.50 0.00
+
+objects_override House1v2_Brittany 46.05 1039.08 29.31 90.00 -167.14 0.00
+objects_override House1_Brittany 39.29 1039.08 43.34 90.00 -141.43 0.00
+objects_override Windmill1 27.12 1039.08 53.05 90.00 -115.71 0.00
+objects_override House4_Brittany 11.93 1039.08 56.52 90.00 -90.00 0.00
+objects_override StAugustine_House6 -3.26 1039.08 53.05 90.00 -64.29 0.00
+objects_override House_Dutch2_Kitchen -15.43 1039.08 43.34 90.00 -38.57 0.00
+objects_override House4_Brittany -22.19 1039.08 29.31 90.00 -12.86 0.00
+objects_override House_Dutch4_Watermill -22.19 1039.08 13.73 90.00 12.86 0.00
+objects_override House_Dutch3 -15.43 1039.08 -0.30 90.00 38.57 0.00
+objects_override House2_Brittany -3.26 1039.08 -10.01 90.00 64.29 0.00
+objects_override House_Dutch1 11.93 1039.08 -13.48 90.00 90.00 0.00
+objects_override Spain_House1 27.12 1039.08 -10.01 90.00 115.71 0.00
+objects_override House1v2_Brittany 39.29 1039.08 -0.30 90.00 141.43 0.00
+objects_override House2v2_Brittany 46.05 1039.08 13.73 90.00 167.14 0.00
+
+objects_override House3_Brittany 42.93 1049.08 31.87 90.00 -168.75 0.00
+objects_override House2v2_Brittany 35.93 1049.08 44.68 90.00 -138.75 0.00
+objects_override House1_Brittany 23.12 1049.08 53.68 90.00 -108.75 0.00
+objects_override House_Dutch1 7.12 1049.08 57.68 90.00 -78.75 0.00
+objects_override House_Dutch2_Kitchen -9.13 1049.08 55.12 90.00 -48.75 0.00
+objects_override House3_Brittany -22.13 1049.08 46.12 90.00 -18.75 0.00
+objects_override House_Dutch4_Watermill -29.13 1049.08 32.87 90.00 11.25 0.00
+objects_override House2_Brittany -29.13 1049.08 18.12 90.00 41.25 0.00
+objects_override House4_Brittany -22.13 1049.08 4.87 90.00 71.25 0.00
+objects_override House1v2_Brittany -9.13 1049.08 -4.13 90.00 101.25 0.00
+objects_override House_Dutch3_2 7.12 1049.08 -6.68 90.00 131.25 0.00
+objects_override StAugustine_House6 23.12 1049.08 -2.68 90.00 161.25 0.00
+
+objects_override House2_Brittany 41.96 1059.08 21.52 90.00 180.00 0.00
+objects_override House3_Brittany 37.08 1059.08 35.31 90.00 -144.00 0.00
+objects_override House4_Brittany 26.35 1059.08 46.04 90.00 -108.00 0.00
+objects_override House1_Brittany 11.93 1059.08 50.92 90.00 -72.00 0.00
+objects_override House_Dutch2_Kitchen -2.49 1059.08 46.04 90.00 -36.00 0.00
+objects_override House_Dutch1 -13.22 1059.08 35.31 90.00 0.00 0.00
+objects_override StAugustine_House3 -18.10 1059.08 21.52 90.00 36.00 0.00
+objects_override House3_Brittany -13.22 1059.08 7.73 90.00 72.00 0.00
+objects_override House2v2_Brittany 1.20 1059.08 2.85 90.00 108.00 0.00
+objects_override House_Dutch3_2 15.62 1059.08 7.73 90.00 144.00 0.00
+
+objects_override House1v2_Brittany 35.30 1069.08 21.52 90.00 180.00 0.00
+objects_override House_Dutch4_Watermill 32.39 1069.08 31.30 90.00 -157.50 0.00
+objects_override House2_Brittany 24.41 1069.08 39.28 90.00 -135.00 0.00
+objects_override House4_Brittany 13.63 1069.08 43.06 90.00 -112.50 0.00
+objects_override House3_Brittany 2.23 1069.08 41.36 90.00 -90.00 0.00
+objects_override Spain_House2 -8.55 1069.08 34.38 90.00 -67.50 0.00
+objects_override House_Dutch1 -11.46 1069.08 24.60 90.00 -45.00 0.00
+objects_override House3_Brittany -8.55 1069.08 13.67 90.00 -22.50 0.00
+objects_override StAugustine_House6  -0.57 1069.08 5.69 90.00 0.00 0.00
+objects_override House2v2_Brittany 10.21 1069.08 1.91 90.00 22.50 0.00
+objects_override Windmill2 24.92 1079.08 29.02 90.00 -150.00 0.00
+objects_override House2_Brittany 11.93 1079.08 36.52 90.00 -90.00 0.00
+objects_override House3_Brittany -1.06 1079.08 29.02 90.00 -30.00 0.00
+objects_override House_Dutch4_Watermill -1.06 1079.08 14.02 90.00 30.00 0.00
+objects_override House_Dutch2_Kitchen 11.93 1079.08 6.52 90.00 90.00 0.00
+objects_override House3_Brittany 24.92 1079.08 14.02 90.00 150.00 0.00
+
+objects_override House_Dutch1 19.00 1089.08 28.59 90.00 -135.00 0.00
+objects_override House1v2_Brittany 4.86 1089.08 28.59 90.00 -45.00 0.00
+objects_override Spain_House2 4.86 1089.08 14.45 90.00 45.00 0.00
+objects_override House2v2_Brittany 19.00 1089.08 14.45 90.00 135.00 0.00
+
+
+objects_override Ruins_Theater 67.93 1016.58 21.52 0.00 180.00 0.00
+objects_override Ruins_TempleRound 60.35 1016.58 43.08 0.00 -156.00 0.00
+objects_override Ruins_CityWall2 49.40 1016.58 63.14 0.00 -132.00 0.00
+objects_override Ruins_TempleRoundPiece 34.53 1016.58 78.01 0.00 -111.80 0.00
+objects_override Ruins_CityWall1 17.19 1016.58 86.46 0.00 -94.63 0.00
+objects_override Ruins_Bathouse1 -2.07 1016.58 87.60 0.00 -78.04 0.00
+objects_override Ruins_TempleRound -21.49 1016.58 81.05 0.00 -60.69 0.00
+objects_override Ruins_CityWall2 -38.75 1016.58 67.16 0.00 -42.00 0.00
+objects_override Ruins_TempleRoundPiece -51.82 1016.58 47.05 0.00 -21.82 0.00
+objects_override Ruins_CityWall1 -59.71 1016.58 23.04 0.00 -1.22 0.00
+objects_override Ruins_Bathouse1 -61.53 1016.58 -2.92 0.00 18.40 0.00
+objects_override Ruins_TempleRound -57.07 1016.58 -28.13 0.00 35.74 0.00
+objects_override Ruins_CityWall2 -46.23 1016.58 -50.71 0.00 51.16 0.00
+objects_override Ruins_TempleRoundPiece -29.23 1016.58 -69.78 0.00 65.73 0.00
+objects_override Ruins_TempleRound 10.35 1026.58 -0.04 0.00 85.81 150.00
+
+
+objects_override Ruins_TempleRound 12.02 1003.10 21.49 0.00 179.40 0.00
+
+
+## trap carpets
+objects_override Carpet1 -16.38 1000.24 57 0 90 0
+objects_override Carpet1 39.5 1000.24 -7 0 90 0

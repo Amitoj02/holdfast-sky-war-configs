@@ -1,0 +1,99 @@
+map_name RandomWaters
+game_type Standard
+game_mode NavalBattlefield
+
+round_time_minutes 25
+reinforcements_per_faction 500
+wave_spawn_time_seconds 10
+wave_spawn_vehicle_time_seconds 30
+spawn_immunity_timer 5
+
+faction_balancing true
+faction_balancing_discrepancy_amount 8
+allow_midround_spawning true
+allow_faction_switching true
+allow_spectating true
+minimum_players -1
+maximum_players 150
+
+faction_attacking french
+faction_defending british
+friendly_fire true
+friendly_fire_melee_bounce true
+damage_split 50
+
+max_accumulated_faction_points 1000
+
+starting_weapons_selection_override British NavalCaptain 6 6 WW1_Revolver SwordLong
+starting_weapons_selection_override British NavalMarine 6 6 WW1_Rifle
+starting_weapons_selection_override British NavalSailor 6 6 WW1_Revolver SwordLong
+starting_weapons_selection_override British NavalSailor2 6 6 WW1_Revolver Pike
+starting_weapons_selection_override British Carpenter 6 6 WW1_TrenchGun Axe2H Sword
+starting_weapons_selection_override British Musician 6 6 WW1_Revolver Sword
+starting_weapons_selection_override British Surgeon 6 6 WW1_Revolver Sword
+
+starting_weapons_selection_override French NavalCaptain 6 6 WW1_Revolver SwordLong
+starting_weapons_selection_override French NavalMarine 6 6 WW1_Rifle
+starting_weapons_selection_override French NavalSailor 6 6 WW1_Revolver SwordLong
+starting_weapons_selection_override French NavalSailor2 6 6 WW1_Revolver Pike
+starting_weapons_selection_override French Carpenter 6 6 WW1_TrenchGun Axe2H Sword
+starting_weapons_selection_override French Musician 6 6 WW1_Revolver Sword
+starting_weapons_selection_override French Surgeon 6 6 WW1_Revolver Sword
+
+
+rc set default
+# reset rc commands
+rc set shipFlyMode true
+rc set shipDrivingFieldsScale 3
+rc set windDirectionAffectsShipSpeed false
+# rc set characterInfiniteFirearmAmmo true
+rc set characterSecondaryAttackForce 50
+rc set characterSecondaryAttackLaunchAngle 45
+rc set cannonRecoilSpeedMultiplier 5
+rc set ragdollForceMultiplier 50
+rc set characterRespawnTime 10
+rc set characterFallDamageEnabled false
+rc set cannonLoadingSpeedMultiplier 3
+rc set allowPreviewAnimations true
+
+# Set ship_preset to 37 (doesn't spawn any ships)
+ships_preset 37
+
+# Match duration is 25 minutes, i.e. 1500 seconds
+# @20.30
+
+# rc delayed 1230 broadcast Ship will temporarily fall in few seconds!
+
+# @20.00
+# rc delayed 1200 set shipFlyMode false
+# rc delayed 1200 set shipDrivingFieldsScale 1
+# rc delayed 1200 broadcast Ships falling, hold tight!
+
+# @19.30
+# rc delayed 1170 set shipFlyMode true
+# rc delayed 1170 set shipDrivingFieldsScale 3
+# rc delayed 1170 broadcast Ships can now fly again!
+
+# @15.30
+rc delayed 930 broadcast Ships will temporarily fall in few seconds!
+
+# @15.00 
+rc delayed 900 set shipFlyMode false
+rc delayed 900 set shipDrivingFieldsScale 1
+rc delayed 900 broadcast Ships falling, hold tight!
+
+# @14.30
+rc delayed 870 set shipFlyMode true
+rc delayed 870 set shipDrivingFieldsScale 3
+rc delayed 870 broadcast Ships can now fly again!
+
+# @5.30
+# rc delayed 330 ac 30
+
+# @5.01
+# Attacking = french, defending = british 
+# rc delayed 301 teleport attacking 0.4,1001.5,-10.32
+# rc delayed 301 teleport defending -0.15,1001.5,59.16
+# rc delayed 301 set characterFallDamageEnabled true
+# rc delayed 290 broadcast Fall damage enabled. [TIP: go through enemy base from left lane and come from right lane to get MG ammo.]
+# rc delayed 120 

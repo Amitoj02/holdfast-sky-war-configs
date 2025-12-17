@@ -1,0 +1,78 @@
+map_name SacredArena
+game_type Standard
+game_mode ArmyBattlefield
+
+round_time_minutes 15
+reinforcements_per_faction 250
+wave_spawn_time_seconds 10
+spawn_immunity_timer 5
+
+faction_balancing true
+faction_balancing_discrepancy_amount 8
+allow_midround_spawning true
+allow_faction_switching true
+allow_spectating true
+minimum_players -1
+maximum_players 150
+
+spawn_override K ArmyInfantryOfficer 6
+spawn_override K ArmyLineInfantry 30
+spawn_override K Grenadier 30
+spawn_override K Guard 30
+spawn_override K LightInfantry 30
+spawn_override K Rifleman 10
+spawn_override K FlagBearer 3
+spawn_override K Musician 3
+spawn_override K Surgeon 3
+spawn_override K Sergeant 6
+spawn_override K Cannoneer 3
+spawn_override K Rocketeer 3
+spawn_override K NavalCaptain 6
+spawn_override K NavalMarine 30
+spawn_override K NavalSailor 30
+spawn_override K NavalSailor2 30
+spawn_override K Carpenter 3
+spawn_override K CoastGuard 30
+spawn_override K Customs 30
+
+spawn_override L ArmyInfantryOfficer 6
+spawn_override L ArmyLineInfantry 30
+spawn_override L Grenadier 30
+spawn_override L Guard 30
+spawn_override L LightInfantry 30
+spawn_override L Rifleman 10
+spawn_override L FlagBearer 3
+spawn_override L Musician 3
+spawn_override L Surgeon 3
+spawn_override L Sergeant 6
+spawn_override L Cannoneer 3
+spawn_override L Rocketeer 3
+spawn_override L NavalCaptain 6
+spawn_override L NavalMarine 30
+spawn_override L NavalSailor 30
+spawn_override L NavalSailor2 30
+spawn_override L Carpenter 3
+spawn_override L CoastGuard 30
+spawn_override L Customs 30
+
+
+faction_attacking french
+faction_defending british
+friendly_fire true
+friendly_fire_melee_bounce true
+damage_split 50
+
+max_accumulated_faction_points 1000
+
+rc set default
+rc set characterSecondaryAttackForce 50
+rc set characterSecondaryAttackLaunchAngle 45
+rc set ragdollForceMultiplier 50
+rc set characterRespawnTime 10
+rc set characterFallDamageEnabled true
+rc set allowPreviewAnimations true
+rc ac
+
+
+objects_override spawnsection 12.42 1001.5 -7.35 0 270 0 11 BaseSpawn BaseSpawn Attacking 4 40 
+objects_override spawnsection 12.62 1001.5 57.41 0 90 0 12 BaseSpawn BaseSpawn Defending 4 40
