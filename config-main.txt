@@ -1,0 +1,287 @@
+###- Server & Steam Ports - DO NOT EDIT
+server_port 25001
+steam_communications_port 8700
+steam_query_port 27000
+
+
+server_name * Lord | Sky War Event | Public Event
+server_region usa
+server_admin_password __ADMIN_PASSWORD__
+# server_password 123
+
+## Discord logs
+discord_webhook_warning_id __DISCORD_ID__
+discord_webhook_warning_token __DISCORD_TOKEN__
+discord_webhook_banmute_id __DISCORD_ID__
+discord_webhook_banmute_token __DISCORD_TOKEN__
+
+###- Server Intro Message
+server_welcome_message Welcome! Thank you for joining, please follow the server rules.
+server_intro_title Welcome!
+server_intro_body - For flying ship, make sure you have defined keybinds in your game settings.<br>- Enjoy WW1 weapons on all classes.<br>- Make sure you slow down the ship to be able to shoot with guns easily. <br><br>Community server from the <b>Lord</b> regiment.<br><br>Please report any issue to the discord <br><br><u>https://dsc.gg/lords-holdfast</u><br><br>Thank you.
+
+
+###- Bandwidth & Performance Settings
+network_broadcast_mode LowBandwidth
+
+###- Player Population Settings
+
+population_low_min_players 15
+population_medium_min_players 50
+population_high_min_players 80
+
+###- Global Gameplay & Map Settings
+
+artillery_fieldgun_respawn_timer 120
+artillery_rocketlauncher_respawn_timer 120
+
+map_voting_enabled false
+
+###- Map Rotations
+
+#--- POPULATION: HIGH, DAY --- 
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Day)
+population_verylow_playable false
+population_low_playable false
+population_medium_playable false
+population_high_playable true
+
+ships_spawn Frigate50gun 2 British 0
+ships_spawn Frigate50gun 2 French 4
+ships_spawn Schooner8gun 1 British 0
+ships_spawn Schooner8gun 1 French 4
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 4
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 4
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 4
+
+nature_preset none
+
+!map_rotation end
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+!map_rotation end
+
+#--- POPULATION: HIGH, NIGHT --- 
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Night)
+population_verylow_playable false
+population_low_playable false
+population_medium_playable false
+population_high_playable true
+
+ships_spawn Frigate50gun 2 British 0
+ships_spawn Frigate50gun 2 French 4
+ships_spawn Schooner8gun 1 British 0
+ships_spawn Schooner8gun 1 French 4
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 4
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 4
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 4
+
+nature_preset Ocean_Dark_Night
+
+!map_rotation end
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+!map_rotation end
+
+#--- POPULATION: MEDIUM, DAY ---
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Day)
+population_verylow_playable false
+population_low_playable false
+population_medium_playable true
+population_high_playable false
+
+ships_spawn Frigate50gun 2 British 0
+ships_spawn Frigate50gun 2 French 4
+ships_spawn Schooner8gun 0 British 0
+ships_spawn Schooner8gun 0 French 4
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 4
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 4
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 4
+
+nature_preset none
+
+!map_rotation end
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+!map_rotation end
+
+#--- POPULATION: MEDIUM, NIGHT ---
+
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Night)
+population_verylow_playable false
+population_low_playable false
+population_medium_playable true
+population_high_playable false
+
+ships_spawn Frigate50gun 2 British 0
+ships_spawn Frigate50gun 2 French 4
+ships_spawn Schooner8gun 0 British 0
+ships_spawn Schooner8gun 0 French 4
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 4
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 4
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 4
+
+nature_preset Ocean_Dark_Night
+
+!map_rotation end
+
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+!map_rotation end
+
+#--- POPULATION: LOW, DAY ---
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Day)
+population_verylow_playable true
+population_low_playable true
+population_medium_playable false
+population_high_playable false
+
+ships_spawn Frigate50gun 1 British 0
+ships_spawn Frigate50gun 1 French 0
+ships_spawn Schooner8gun 1 British 0
+ships_spawn Schooner8gun 1 French 0
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 0
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 0
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 0
+
+nature_preset none
+
+!map_rotation end
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+!map_rotation end
+
+#--- POPULATION: LOW, NIGHT ---
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Night)
+population_verylow_playable true
+population_low_playable true
+population_medium_playable false
+population_high_playable false
+
+
+ships_spawn Frigate50gun 1 British 0
+ships_spawn Frigate50gun 1 French 0
+ships_spawn Schooner8gun 1 British 0
+ships_spawn Schooner8gun 1 French 0
+ships_spawn Schooner2gun 0 British 0
+ships_spawn Schooner2gun 0 French 0
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 0
+ships_spawn Gunboat 0 British 0
+ships_spawn Gunboat 0 French 0
+
+nature_preset Ocean_Dark_Night
+
+!map_rotation end
+
+#--- [MELEE] POPULATION: ANY ---
+!map_rotation start
+import melee-round-setting.txt
+import melee-arena.txt
+map_name_override Sky Melee Arena
+
+population_verylow_playable true
+population_low_playable true
+population_medium_playable true
+population_high_playable false
+
+!map_rotation end
+
+#--- Floating fort (all small ships) ---
+
+!map_rotation start
+
+import ship-round-setting.txt
+import floating-fort.txt
+
+map_name_override Floating Fort (Night)
+# population_verylow_playable true
+# population_low_playable true
+# population_medium_playable false
+# population_high_playable false
+
+
+ships_spawn Frigate50gun 0 British 0
+ships_spawn Frigate50gun 0 French 0
+ships_spawn Schooner8gun 0 British 0
+ships_spawn Schooner8gun 0 French 0
+ships_spawn Schooner2gun 2 British 0
+ships_spawn Schooner2gun 2 French 0
+ships_spawn Rocketboat 0 British 0
+ships_spawn Rocketboat 0 French 0
+ships_spawn Gunboat 4 British 0
+ships_spawn Gunboat 4 French 0
+
+# nature_preset Ocean_Dark_Night
+
+!map_rotation end
